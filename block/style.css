@@ -291,6 +291,12 @@
   }
 }
 
+@media (width <= 930px) {
+  .rectangle__content {
+    display: none;
+  }
+}
+
 @media (width <= 1050px) {
   .header__menu-list {
     display: none;
@@ -329,8 +335,7 @@
     top: 5%;
   }
 
-  .arrow__btn-rectangle {
-    width: 24px;
-    height: 24px;
+  .rectangle__box {
+    display: none;
   }
 }
