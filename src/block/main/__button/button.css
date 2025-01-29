@@ -1,0 +1,39 @@
+.btn__section {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  border-radius: 45px;
+  padding: 11px 11px 11px 24px;
+  font-weight: 700;
+  font-size: 24px;
+  background: var(--btn-linear-gradient);
+}
+
+.arrow__btn {
+  border-radius: 21px;
+  padding: 10px;
+  background-color: var(--white);
+}
+
+.span__btn {
+  position: absolute;
+  top: 87.3%;
+  left: 57.61%;
+  z-index: 10;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 7px;
+  width: 147px;
+  border-radius: 33px;
+  padding: 7px 13px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+  background: var(--glass);
+  backdrop-filter: blur(56px);
+
+  &::after {
+    content: "Java Script";
+  }
+}

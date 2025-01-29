@@ -8,15 +8,11 @@
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Mesto</title>
-    <link rel="stylesheet" href="./pages/index.css" />
   </head>
   <body class="page">
     <header class="header">
-      <img
-        src="./images/Logo.svg"
-        class="logo header__logo"
-        alt="Логотип проекта landing"
-      />
+      <img src=<%=require ("./images/Logo.svg") %> class="logo header__logo"
+      alt="Логотип проекта landing" />
       <nav class="header__menu">
         <input type="checkbox" id="burger-checkbox" class="burger-checkbox" />
         <label class="burger" for="burger-checkbox"></label>
@@ -50,16 +46,13 @@
           собеседования, записи видеоинтервью и анализа эмоций
         </p>
         <button type="button" class="button btn__section">
-          Попробовать
-          <img class="arrow__btn" src="./images/arrow.svg" alt="arrow__btn" />
+          Попробовать <img class="arrow__btn" src=<%=require
+          ("./images/arrow.svg") %> alt="arrow__btn" />
         </button>
         <div class="box__cards-bluer">
           <div class="blur__cards-position-1">
-            <img
-              class="img__header-card-1"
-              src="./images/header-cards.svg"
-              alt=""
-            />
+            <img class="img__header-card-1" src=<%=require
+            ("./images/header-cards.svg") %> alt="" />
             <span class="span__btn"
               ><svg
                 width="32"
@@ -84,11 +77,8 @@
             </span>
           </div>
           <div class="blur__cards-position-2">
-            <img
-              class="img__header-card-2"
-              src="./images/header-cards-2.svg"
-              alt=""
-            />
+            <img class="img__header-card-2" src=<%=require
+            ("./images/header-cards-2.svg") %> alt="" />
             <div class="blur__cards-position-3">
               <span class="text__cards-bluer text__card-position-1"
                 >Тест 85%</span
@@ -147,11 +137,8 @@
             </svg>
           </button>
           <div class="rectangle__box">
-            <img
-              class="img__rectangle"
-              src="./images/Rectangle-image.png"
-              alt=""
-            />
+            <img class="img__rectangle" src=<%=require
+            ("./images/Rectangle-image.png") %> alt="" />
             <div class="content__text-rectangle">
               <h3 class="title__rectangle">
                 Проведите больше интервью за меньшее время
@@ -165,7 +152,7 @@
           </div>
         </div>
       </section>
+      <section class=""></section>
     </main>
-    <script src="./scripts/index.js" defer></script>
   </body>
 </html>

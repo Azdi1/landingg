@@ -1,0 +1,18 @@
+@import url("../vendor/normalize.css");
+@import url("../vendor/fonts.css");
+@import url("../pages/burger.css");
+@import url("../pages/slider.css");
+@import url("../block/style.css");
+@import url("../vendor/veriables.css");
+@import url("../scripts/index.js");
+
+/* page */
+@import url("../block/content/page.css");
+/* header */
+@import url("../block/header/header.css");
+@import url("../block/header/__logo/logo.css");
+@import url("../block/header/__burger/burger.css");
+@import url("../block/header/__menu-list/menu-list.css");
+@import url("../block/header/__button/button.css");
+/* main */
+@import url("../block/main/__button/button.css");

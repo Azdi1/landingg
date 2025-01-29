@@ -1,0 +1,6 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 23px 0px;
+  padding-inline: clamp(1rem, -0.0563rem + 7.807vw, 7rem);
+}
