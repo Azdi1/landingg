@@ -3,3 +3,9 @@
   align-items: center;
   gap: 26px;
 }
+
+@media (width <= 1050px) {
+  .header__menu-list {
+    display: none;
+  }
+}

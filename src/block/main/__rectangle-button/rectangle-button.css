@@ -1,0 +1,11 @@
+.custom-button {
+  border-radius: 120px;
+  width: 123px;
+  height: 123px;
+  border: none;
+  background-color: var(--background-dark);
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

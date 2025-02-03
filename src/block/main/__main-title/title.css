@@ -1,0 +1,7 @@
+.main__title {
+  max-width: 1214px;
+  margin-bottom: 26px;
+  font-weight: 800;
+  font-size: clamp(3rem, 2.4498rem + 2.3474vw, 6.25rem);
+  line-height: 110%;
+}

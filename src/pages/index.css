@@ -2,7 +2,7 @@
 @import url("../vendor/fonts.css");
 @import url("../pages/burger.css");
 @import url("../pages/slider.css");
-@import url("../block/style.css");
+/* @import url("../block/style.css"); */
 @import url("../vendor/veriables.css");
 @import url("../scripts/index.js");
 
@@ -16,3 +16,4 @@
 @import url("../block/header/__button/button.css");
 /* main */
 @import url("../block/main/__button/button.css");
+@import url("../block/main/__main-title/title.css");

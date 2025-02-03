@@ -1,0 +1,28 @@
+.text__large {
+  font-weight: 500;
+  font-size: clamp(1rem, 0.868rem + 0.5634vw, 1.375rem);
+  line-height: 130%;
+  /* color: #000; */
+}
+
+.subtitle {
+  max-width: 546px;
+  margin-bottom: 67px;
+  color: var(--text-light);
+}
+
+.title__section {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 110%;
+  letter-spacing: -0.01em;
+  /* color: var(--text-dark); */
+}
+
+.title__headline {
+  font-weight: 500;
+  font-size: clamp(1.125rem, 0.6849rem + 1.8779vw, 2.375rem);
+  line-height: 113%;
+  color: var(--text-dark);
+}

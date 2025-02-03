@@ -1,0 +1,16 @@
+.text__cards-bluer {
+  opacity: 0.5;
+  color: var(--white);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 120%;
+
+  &:last-child {
+    opacity: 1;
+  }
+}
+
+.text__card-position-1 {
+  display: flex;
+  width: 34px;
+}

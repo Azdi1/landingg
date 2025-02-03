@@ -1,0 +1,61 @@
+.blur__cards-position-2 {
+  position: absolute;
+  top: 119px;
+  right: 175px;
+
+  &:before {
+    content: "IOS-Разработчик";
+    position: absolute;
+    bottom: 85%;
+    left: 62%;
+    z-index: 10;
+    width: 177px;
+    border-radius: 33px;
+    padding: 12px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    text-align: center;
+    background: var(--glass);
+    backdrop-filter: blur(56px);
+  }
+}
+
+.blur__cards-position-1 {
+  position: absolute;
+  top: 288px;
+  right: 382px;
+
+  &:before {
+    content: "Java-Разработчик";
+    position: absolute;
+    right: 82.61%;
+    bottom: 36.3%;
+    z-index: 10;
+    width: 177px;
+    border-radius: 33px;
+    padding: 12px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    text-align: center;
+    background: var(--glass);
+    backdrop-filter: blur(56px);
+  }
+}
+
+.blur__cards-position-3 {
+  position: absolute;
+  top: 87%;
+  left: 23%;
+  z-index: 10;
+  display: grid;
+  grid-template-columns: 79px 51px;
+  gap: 13px;
+  row-gap: 15px;
+  min-width: 217px;
+  border-radius: 41px;
+  padding: 33px 37px;
+  background: var(--glass);
+  backdrop-filter: blur(56px);
+}

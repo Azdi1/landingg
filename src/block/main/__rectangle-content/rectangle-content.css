@@ -1,0 +1,47 @@
+.rectangle__content {
+  margin-inline: 22px;
+  margin-top: 90px;
+  background-image: url("data:image/svg+xml,%3Csvg width='1395' height='753' viewBox='0 0 1395 753' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 186.627C0 151.281 28.6538 122.627 64 122.627H509.242C525.446 122.627 540.856 115.607 551.492 103.382L604.703 42.2157C651.973 -12.1211 736.124 -12.8715 784.356 40.6137L841.632 104.129C852.251 115.905 867.364 122.627 883.22 122.627H1331C1366.35 122.627 1395 151.281 1395 186.627V689C1395 724.346 1366.35 753 1331 753H64C28.6537 753 0 724.346 0 689V186.627Z' fill='white'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  display: flex;
+  aspect-ratio: 1295 / 744;
+  min-height: 0;
+}
+
+.container {
+  position: relative;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  padding-inline: 92px;
+  /* padding-inline: clamp(1rem, -0.1019rem + 4.7013vw, 4rem); */
+  justify-content: center;
+}
+
+.rectangle__box {
+  display: grid;
+  grid-template-columns: 50% 44%;
+  gap: 86px;
+  margin-block-start: 128px;
+}
+
+@media (width <= 930px) {
+  .rectangle__content {
+    display: none;
+  }
+}
+
+@media (width <= 1050px) {
+  .arrow__btn-rectangle {
+    width: 44px;
+    height: 38px;
+  }
+}
+
+@media (width <= 480px) {
+  .rectangle__box {
+    display: none;
+  }
+}

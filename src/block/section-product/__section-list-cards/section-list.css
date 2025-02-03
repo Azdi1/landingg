@@ -1,0 +1,30 @@
+.list__product-user {
+  margin-top: 64px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.item__product-user {
+  border-radius: 64px;
+  max-width: 600px;
+  min-height: 747px;
+  background: var(--white);
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.img__card-user-product {
+  width: 100%;
+}
+
+.svg-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.title__user-card {
+  margin-block: 50px 24px;
+}

@@ -1,0 +1,4 @@
+.padding-section {
+  padding-block: 128px;
+  padding-inline: clamp(1rem, -0.0563rem + 8.507vw, 7rem);
+}

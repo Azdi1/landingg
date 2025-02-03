@@ -5,3 +5,9 @@
 .burger-checkbox {
   display: none;
 }
+
+@media (width <= 1050px) {
+  .burger {
+    display: flex;
+  }
+}

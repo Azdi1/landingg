@@ -1,0 +1,5 @@
+.content__text-rectangle {
+  display: flex;
+  flex-direction: column;
+  gap: 31px;
+}

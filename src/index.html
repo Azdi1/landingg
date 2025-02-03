@@ -8,10 +8,11 @@
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Mesto</title>
+    <!-- <link rel="stylesheet" href="./pages/index.css" /> -->
   </head>
   <body class="page">
     <header class="header">
-      <img src=<%=require ("./images/Logo.svg") %> class="logo header__logo"
+      <img src=<%=require("./images/Logo.svg")%> class="logo header__logo"
       alt="Логотип проекта landing" />
       <nav class="header__menu">
         <input type="checkbox" id="burger-checkbox" class="burger-checkbox" />
@@ -140,7 +141,7 @@
             <img class="img__rectangle" src=<%=require
             ("./images/Rectangle-image.png") %> alt="" />
             <div class="content__text-rectangle">
-              <h3 class="title__rectangle">
+              <h3 class="title__headline">
                 Проведите больше интервью за меньшее время
               </h3>
               <p class="text__large">
@@ -152,7 +153,358 @@
           </div>
         </div>
       </section>
-      <section class=""></section>
+      <section class="user__product-content padding-section">
+        <h2 class="title__section">Для кого наш продукт</h2>
+        <ul class="list__product-user">
+          <li class="item__product-user">
+            <article class="card__product-user">
+              <img class="img__card-user-product" src=
+              <%=require("./images/user-product-card1.svg")%> alt="" />
+              <h2 class="title__headline title__user-card">
+                Руководитель разработки
+              </h2>
+              <p class="text__large">
+                Платформа рекомендует соискателей после интервью, составляет
+                первое впечатление о кандидате. Вы сможете провести более
+                глубокое техническое интервью без повторения базовых вопросов.
+              </p>
+            </article>
+            <div class="svg-container">
+              <svg
+                width="42"
+                height="42"
+                viewBox="0 0 42 42"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_1315_503)">
+                  <mask
+                    id="mask0_1315_503"
+                    style="mask-type: luminance"
+                    maskUnits="userSpaceOnUse"
+                    x="0"
+                    y="0"
+                    width="42"
+                    height="42"
+                  >
+                    <path d="M42 0H0V42H42V0Z" fill="white" />
+                  </mask>
+                  <g mask="url(#mask0_1315_503)">
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M21 21C21 21 23.625 13.9706 23.625 8.99999C23.625 4.02944 22.4498 0 21 0C19.5502 0 18.375 4.02944 18.375 8.99999C18.375 13.9706 21 21 21 21ZM21 21C21 21 24.1145 27.8267 27.6291 31.3414C31.1438 34.8562 34.8241 36.8743 35.8493 35.8493C36.8743 34.8241 34.8562 31.1438 31.3414 27.6291C27.8267 24.1145 21 21 21 21ZM21 21C21 21 28.0295 18.375 33 18.375C37.9705 18.375 42 19.5502 42 21C42 22.4498 37.9705 23.625 33 23.625C28.0295 23.625 21 21 21 21ZM21 21C21 21 14.1733 24.1145 10.6586 27.6291C7.14384 31.1438 5.12562 34.8241 6.15075 35.8493C7.17589 36.8743 10.8562 34.8562 14.3709 31.3414C17.8856 27.8267 21 21 21 21ZM21 21C21.0059 21.0155 23.625 28.035 23.625 33C23.625 37.9705 22.4498 42 21 42C19.5502 42 18.375 37.9705 18.375 33C18.375 28.0295 21 21 21 21ZM21 21C21 21 13.9706 18.375 8.99999 18.375C4.02944 18.375 0 19.5502 0 21C0 22.4498 4.02944 23.625 8.99999 23.625C13.9706 23.625 21 21 21 21ZM21 21C21 21 27.8267 17.8856 31.3414 14.3709C34.8562 10.8561 36.8743 7.17587 35.8493 6.15075C34.8241 5.12562 31.1438 7.14384 27.6291 10.6586C24.1145 14.1733 21 21 21 21ZM14.3709 10.6586C17.8856 14.1733 21 21 21 21C21 21 14.1733 17.8856 10.6586 14.3709C7.14384 10.8562 5.12564 7.17589 6.15075 6.15075C7.17589 5.12564 10.8562 7.14384 14.3709 10.6586Z"
+                      fill="url(#paint0_linear_1315_503)"
+                    />
+                  </g>
+                </g>
+                <defs>
+                  <linearGradient
+                    id="paint0_linear_1315_503"
+                    x1="-10.2877"
+                    y1="42"
+                    x2="54.7043"
+                    y2="42"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop stop-color="#FF58A2" />
+                    <stop offset="1" stop-color="#CA58FF" />
+                  </linearGradient>
+                  <clipPath id="clip0_1315_503">
+                    <rect width="42" height="42" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </div>
+          </li>
+          <li class="item__product-user">
+            <article class="card__product-user">
+              <img class="img__card-user-product" src=
+              <%=require("./images/user-product-card2.svg")%> alt="" />
+              <h2 class="title__headline title__user-card">
+                Нанимающий менеджер
+              </h2>
+              <p class="text__large">
+                Платформа предлагает широкий набор задач и вопросов по различным
+                специализациям. Создайте свой вариант собеседований быстрее.
+              </p>
+            </article>
+            <div class="svg-container">
+              <svg
+                width="42"
+                height="42"
+                viewBox="0 0 42 42"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M21.0001 0L24.2888 11.3734L33.9787 4.01064L29.6103 15.0504L42 14.5106L31.643 21L42 27.4894L29.6103 26.9495L33.9787 37.9894L24.2888 30.6266L21.0001 42L17.7112 30.6266L8.02129 37.9894L12.3897 26.9495L0 27.4894L10.3571 21L0 14.5106L12.3897 15.0504L8.02129 4.01064L17.7112 11.3734L21.0001 0Z"
+                  fill="url(#paint0_linear_1315_678)"
+                />
+                <defs>
+                  <linearGradient
+                    id="paint0_linear_1315_678"
+                    x1="-10.2877"
+                    y1="42"
+                    x2="54.7043"
+                    y2="42"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop stop-color="#FF58A2" />
+                    <stop offset="1" stop-color="#CA58FF" />
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+          </li>
+          <li class="item__product-user">
+            <article class="card__product-user">
+              <img class="img__card-user-product" src=
+              <%=require("./images/user-product-card3.svg")%> alt="" />
+              <h2 class="title__headline title__user-card">Cоискатель</h2>
+              <p class="text__large">
+                На платформе вы сможете подготовиться к собеседованиям. Пройдите
+                пробные интервью с опытными специалистами.
+              </p>
+            </article>
+            <div class="svg-container">
+              <svg
+                width="42"
+                height="42"
+                viewBox="0 0 42 42"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_1315_175)">
+                  <mask
+                    id="mask0_1315_175"
+                    style="mask-type: luminance"
+                    maskUnits="userSpaceOnUse"
+                    x="0"
+                    y="0"
+                    width="42"
+                    height="42"
+                  >
+                    <path d="M42 0H0V42H42V0Z" fill="white" />
+                  </mask>
+                  <g mask="url(#mask0_1315_175)">
+                    <path
+                      d="M20.906 3.97082C20.906 -7.37634 27.9965 8.70864 25.1652 13.6218C28.0015 8.70864 45.4794 6.807 35.6505 12.4818C45.4794 6.807 35.0945 21.0004 29.4219 21.0004C35.0945 21.0004 45.4794 35.1861 35.6505 29.5189C45.4794 35.1937 28.0015 33.2921 25.1652 28.379C28.0015 33.2921 20.906 49.3771 20.906 38.0299C20.906 49.3771 13.8131 33.2921 16.6468 28.379C13.8106 33.2921 -3.66741 35.1937 6.16145 29.5189C-3.66741 35.1937 6.71766 21.0004 12.3925 21.0004C6.71766 21.0004 -3.66741 6.81452 6.16145 12.4818C-3.66741 6.807 13.8106 8.70864 16.6468 13.6218C13.8131 8.70362 20.906 -7.37634 20.906 3.97082Z"
+                      fill="url(#paint0_linear_1315_175)"
+                    />
+                  </g>
+                </g>
+                <defs>
+                  <linearGradient
+                    id="paint0_linear_1315_175"
+                    x1="-7.11272"
+                    y1="42"
+                    x2="51.0889"
+                    y2="42"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop stop-color="#FF58A2" />
+                    <stop offset="1" stop-color="#CA58FF" />
+                  </linearGradient>
+                  <clipPath id="clip0_1315_175">
+                    <rect width="42" height="42" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </div>
+          </li>
+          <li class="item__product-user">
+            <article class="card__product-user">
+              <img class="img__card-user-product" src=
+              <%=require("./images/user-product-card4.svg")%> alt="" />
+              <h2 class="title__headline title__user-card">HR менеджер</h2>
+              <p class="text__large">
+                Платформа поможет подобрать специалистов разного уровня,
+                соответствующих корпоративной культуре компании, вы сэкономите
+                время на этапе скрининг-интервью.
+              </p>
+            </article>
+            <div class="svg-container">
+              <svg
+                width="42"
+                height="42"
+                viewBox="0 0 42 42"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_1315_345)">
+                  <mask
+                    id="mask0_1315_345"
+                    style="mask-type: luminance"
+                    maskUnits="userSpaceOnUse"
+                    x="0"
+                    y="0"
+                    width="42"
+                    height="42"
+                  >
+                    <path d="M42 0H0V42H42V0Z" fill="white" />
+                  </mask>
+                  <g mask="url(#mask0_1315_345)">
+                    <path
+                      d="M20.9246 14.3813C20.9246 -13.7396 29.6104 5.95577 22.5796 18.1341C29.6104 5.95577 51.0111 3.62967 26.6566 17.6913C51.0111 3.62967 38.2985 20.999 24.2346 20.999C38.2939 20.999 51.0111 38.3684 26.6566 24.3089C51.0111 38.3684 29.6104 36.0422 22.5796 23.8639C29.6104 36.0422 20.9246 55.7398 20.9246 27.6166C20.9246 55.7398 12.2502 36.0422 19.2696 23.8639C12.2411 36.0422 -9.15955 38.3684 15.1949 24.3089C-9.15955 38.3684 3.55299 20.999 17.6169 20.999C3.55526 20.999 -9.15955 3.62967 15.1949 17.6913C-9.15955 3.62967 12.2411 5.95577 19.2696 18.1341C12.2411 5.95577 20.9246 -13.7396 20.9246 14.3813Z"
+                      fill="url(#paint0_linear_1315_345)"
+                    />
+                  </g>
+                </g>
+                <defs>
+                  <linearGradient
+                    id="paint0_linear_1315_345"
+                    x1="-8.06084"
+                    y1="41.9991"
+                    x2="52.1512"
+                    y2="41.9991"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop stop-color="#FF58A2" />
+                    <stop offset="1" stop-color="#CA58FF" />
+                  </linearGradient>
+                  <clipPath id="clip0_1315_345">
+                    <rect width="42" height="42" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="evaluation-process padding-section">
+        <h2 class="title__section">Как это работает</h2>
+        <ul class="list__steps">
+          <li class="item__step">
+            <article class="card__step">
+              <span class="decoration__card-step">01</span>
+              <p class="text__large">
+                Создайте интервью из шаблона под вашу вакансию
+              </p>
+              <div class="list__step-decoration">
+                <div class="ellipse__content">
+                  <div class="ellipse__decoration-gradient"></div>
+                  <div class="ellipse__decoration-light"></div>
+                  <div class="ellipse__decoration-white"></div>
+                </div>
+                <svg
+                  width="49"
+                  height="14"
+                  viewBox="0 0 49 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M48.1252 7.66359C48.4917 7.2971 48.4917 6.7029 48.1252 6.3364L42.1529 0.364071C41.7864 -0.00242084 41.1922 -0.00242079 40.8257 0.364071C40.4592 0.730563 40.4592 1.32476 40.8257 1.69126L46.1345 7L40.8257 12.3087C40.4592 12.6752 40.4592 13.2694 40.8257 13.6359C41.1922 14.0024 41.7864 14.0024 42.1529 13.6359L48.1252 7.66359ZM0.538574 7.93846L47.4617 7.93846L47.4617 6.06153L0.538574 6.06154L0.538574 7.93846Z"
+                    fill="white"
+                  />
+                </svg>
+                <div class="ellipse__content">
+                  <div class="ellipse__decoration-gradient"></div>
+                  <div class="ellipse__decoration-light"></div>
+                  <div class="ellipse__decoration-white"></div>
+                </div>
+              </div>
+            </article>
+          </li>
+          <li class="item__step">
+            <article class="card__step">
+              <span class="decoration__card-step">02</span>
+              <p class="text__large">
+                Создайте интервью из шаблона под вашу вакансию
+              </p>
+              <div class="list__step-decoration">
+                <div class="ellipse__content">
+                  <div class="ellipse__decoration-gradient"></div>
+                  <div class="ellipse__decoration-light"></div>
+                  <div class="ellipse__decoration-white"></div>
+                </div>
+                <svg
+                  width="49"
+                  height="14"
+                  viewBox="0 0 49 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M48.1252 7.66359C48.4917 7.2971 48.4917 6.7029 48.1252 6.3364L42.1529 0.364071C41.7864 -0.00242084 41.1922 -0.00242079 40.8257 0.364071C40.4592 0.730563 40.4592 1.32476 40.8257 1.69126L46.1345 7L40.8257 12.3087C40.4592 12.6752 40.4592 13.2694 40.8257 13.6359C41.1922 14.0024 41.7864 14.0024 42.1529 13.6359L48.1252 7.66359ZM0.538574 7.93846L47.4617 7.93846L47.4617 6.06153L0.538574 6.06154L0.538574 7.93846Z"
+                    fill="white"
+                  />
+                </svg>
+                <div class="ellipse__content">
+                  <div class="ellipse__decoration-gradient"></div>
+                  <div class="ellipse__decoration-light"></div>
+                  <div class="ellipse__decoration-white"></div>
+                </div>
+              </div>
+            </article>
+          </li>
+          <li class="item__step">
+            <article class="card__step">
+              <span class="decoration__card-step">03</span>
+              <p class="text__large">
+                Создайте интервью из шаблона под вашу вакансию
+              </p>
+              <div class="list__step-decoration">
+                <div class="ellipse__content">
+                  <div class="ellipse__decoration-gradient"></div>
+                  <div class="ellipse__decoration-light"></div>
+                  <div class="ellipse__decoration-white"></div>
+                </div>
+                <svg
+                  width="49"
+                  height="14"
+                  viewBox="0 0 49 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M48.1252 7.66359C48.4917 7.2971 48.4917 6.7029 48.1252 6.3364L42.1529 0.364071C41.7864 -0.00242084 41.1922 -0.00242079 40.8257 0.364071C40.4592 0.730563 40.4592 1.32476 40.8257 1.69126L46.1345 7L40.8257 12.3087C40.4592 12.6752 40.4592 13.2694 40.8257 13.6359C41.1922 14.0024 41.7864 14.0024 42.1529 13.6359L48.1252 7.66359ZM0.538574 7.93846L47.4617 7.93846L47.4617 6.06153L0.538574 6.06154L0.538574 7.93846Z"
+                    fill="white"
+                  />
+                </svg>
+                <div class="ellipse__content">
+                  <div class="ellipse__decoration-gradient"></div>
+                  <div class="ellipse__decoration-light"></div>
+                  <div class="ellipse__decoration-white"></div>
+                </div>
+              </div>
+            </article>
+          </li>
+          <li class="item__step">
+            <article class="card__step">
+              <span class="decoration__card-step">04</span>
+              <p class="text__large">
+                Создайте интервью из шаблона под вашу вакансию
+              </p>
+              <div class="list__step-decoration">
+                <div class="ellipse__content">
+                  <div class="ellipse__decoration-gradient"></div>
+                  <div class="ellipse__decoration-light"></div>
+                  <div class="ellipse__decoration-white"></div>
+                </div>
+                <svg
+                  width="49"
+                  height="14"
+                  viewBox="0 0 49 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M48.1252 7.66359C48.4917 7.2971 48.4917 6.7029 48.1252 6.3364L42.1529 0.364071C41.7864 -0.00242084 41.1922 -0.00242079 40.8257 0.364071C40.4592 0.730563 40.4592 1.32476 40.8257 1.69126L46.1345 7L40.8257 12.3087C40.4592 12.6752 40.4592 13.2694 40.8257 13.6359C41.1922 14.0024 41.7864 14.0024 42.1529 13.6359L48.1252 7.66359ZM0.538574 7.93846L47.4617 7.93846L47.4617 6.06153L0.538574 6.06154L0.538574 7.93846Z"
+                    fill="white"
+                  />
+                </svg>
+                <div class="ellipse__content">
+                  <div class="ellipse__decoration-gradient"></div>
+                  <div class="ellipse__decoration-light"></div>
+                  <div class="ellipse__decoration-white"></div>
+                </div>
+              </div>
+            </article>
+          </li>
+        </ul>
+      </section>
     </main>
   </body>
 </html>
