@@ -1,8 +1,10 @@
 .list__product-user {
-  margin-top: 64px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
   gap: 16px;
+  /* grid-template-columns: 1fr 1fr; */
+  margin-top: 64px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .item__product-user {

@@ -287,6 +287,14 @@
       width: 163px;
     }
   }
+
+  .list__steps {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .item__step:last-child {
+    grid-column: 1 / 3;
+  }
 }
 
 /* @media (width <= 930px) {
