@@ -16,6 +16,7 @@ module.exports = {
   devServer: {
     static: path.resolve(__dirname, "./dist"),
     open: true,
+    watchFiles: ["src/index.html"],
     compress: true,
     port: 8080,
   },
@@ -27,8 +28,36 @@ module.exports = {
         exclude: "/node_modules/",
       },
       {
-        test: /\.(png|svg|jpg|gif|woff(2)?|eot|ttf|otf)$/,
+        test: /\.(png|jpg|jpeg|gif)$/i,
         type: "asset/resource",
+        generator: {
+          filename: "images/pictures/[name].[hash][ext]",
+        },
+      },
+      {
+        test: /\.svg$/i,
+        type: "asset/resource",
+        generator: {
+          filename: (pathData) => {
+            return pathData.filename.includes("favicon")
+              ? "images/favicon/[name].[hash][ext]"
+              : "images/svg/[name].[hash][ext]";
+          },
+        },
+      },
+      {
+        test: /\.ico$/i,
+        type: "asset/resource",
+        generator: {
+          filename: "images/favicon/[name].[hash][ext]",
+        },
+      },
+      {
+        test: /\.(woff(2)?|eot|ttf|otf)$/i,
+        type: "asset/resource",
+        generator: {
+          filename: "fonts/[name].[hash][ext]",
+        },
       },
       {
         test: /\.css$/,

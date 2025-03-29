@@ -1,0 +1,4 @@
+.white__background-section {
+  background-color: var(--background-light);
+  color: var(--text-dark);
+}

@@ -1,0 +1,21 @@
+.hiring__section-btn {
+  color: var(--text-dark);
+  margin: 47px 24px;
+}
+
+.hiring__section-btn-content {
+  background: linear-gradient(90deg, #ff58a2 0%, #ca58ff 100%);
+  padding: 128px 24px;
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* gap: 29px; */
+  border-radius: 64px;
+}
+
+.btn__black {
+  background: var(--background-dark);
+  color: var(--white);
+  margin-top: 29px;
+}

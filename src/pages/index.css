@@ -23,11 +23,21 @@
 @import url("../block/main/__rectangle-font/rectangle-font.css");
 @import url("../block/main/__rectangle-img/rectangle-img.css");
 /* // section-product */
-@import url("../block/section-product/__section-content/section-content.css");
 @import url("../block/section-product/__section-list-cards/section-list.css");
 /* // evaluation-process */
 @import url("../block/section-evaluation-process/evaluation-process-content/content.css");
 @import url("../block/section-evaluation-process/evaluation-process-list/step-list.css");
+@import url("../block/section-evaluation-process/evaluation-process-list/ciricle.css");
+@import url("../block/section-evaluation-process/evaluation-process-list/ellipse.css");
+/* function-section-cards */
+@import url("../block/function__section-cards/items__cards-function.css");
+/* hiring__section-btn */
+@import url("../block/hiring__section-btn/hiring__section-btn.css");
+/* contact-us-input */
+@import url("../block/section__contact-us/contact-us-input.css");
+/* footer */
+@import url("../block/footer/footer.css");
 /* // reuse */
+@import url("../block/reuse/section-content.css");
 @import url("../block/reuse/text.css");
 @import url("../block/reuse/padding-section.css");

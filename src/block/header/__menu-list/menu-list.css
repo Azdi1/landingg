@@ -4,6 +4,10 @@
   gap: 26px;
 }
 
+.link__header-list {
+  text-decoration: none;
+}
+
 @media (width <= 1050px) {
   .header__menu-list {
     display: none;

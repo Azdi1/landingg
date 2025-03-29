@@ -1,7 +1,8 @@
 .list__product-user {
   display: flex;
   gap: 16px;
-  /* grid-template-columns: 1fr 1fr; */
+  /* display: grid;
+  grid-template-columns: 1fr 1fr; */
   margin-top: 64px;
   flex-wrap: wrap;
   justify-content: center;
@@ -9,7 +10,7 @@
 
 .item__product-user {
   border-radius: 64px;
-  max-width: 600px;
+  width: 600px;
   min-height: 747px;
   background: var(--white);
   padding: 32px;

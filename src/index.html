@@ -19,19 +19,19 @@
         <label class="burger" for="burger-checkbox"></label>
         <ul class="header__menu-list">
           <li class="header__menu-item">
-            <button class="button">Главная</button>
+            <a class="link__header-list button" href="#">Главная</a>
           </li>
           <li class="header__menu-item">
-            <button type="button" class="button">Для кого</button>
+            <a class="link__header-list button" href="#">Для кого</a>
           </li>
           <li class="header__menu-item">
-            <button type="button" class="button">Как это работает</button>
+            <a class="link__header-list button" href="#">Как это работает</a>
           </li>
           <li class="header__menu-item">
-            <button type="button" class="button">Функционал</button>
+            <a class="link__header-list button" href="#">Функционал</a>
           </li>
           <li class="header__menu-item">
-            <button type="button" class="button">Связаться</button>
+            <a class="link__header-list button" href="#">Связаться</a>
           </li>
           <li class="header__menu-item">
             <button type="button" class="btn__linear">Попробовать</button>
@@ -153,7 +153,7 @@
           </div>
         </div>
       </section>
-      <section class="user__product-content padding-section">
+      <section class="white__background-section padding-section">
         <h2 class="title__section">Для кого наш продукт</h2>
         <ul class="list__product-user">
           <li class="item__product-user">
@@ -414,24 +414,26 @@
             </p>
             <article class="card__step">
               <div class="list__step-decoration2">
-                <div class="a">
+                <div class="aside__function">
                   <span
-                    class="ellipse__decoration-gradient c"
+                    class="ellipse__decoration-gradient aside__function-2"
                     style="height: 44px"
                   >
                     Видео-вопрос
                   </span>
                 </div>
-                <div class="a">
+                <div class="aside__function">
                   <span
-                    class="ellipse__decoration-light c v"
+                    class="ellipse__decoration-light aside__function-2 aside__color"
                     style="height: 44px"
                   >
                     Алгоритмическая задача
                   </span>
                 </div>
-                <div class="b">
-                  <span class="ellipse__decoration-white c v">
+                <div class="aside__function-3">
+                  <span
+                    class="ellipse__decoration-white aside__function-2 aside__color"
+                  >
                     Технический вопрос
                   </span>
                 </div>
@@ -792,26 +794,32 @@
           <li class="item__step">
             <span class="decoration__card-step">05</span>
             <p class="text__large">Оцените кандидата по своим критериям</p>
-            <!-- <span class="chips__ciricle-btn chips__ciricle-JS">Java Core</span>
-            <span class="chips__ciricle-btn chips__ciricle-SQL"
-              >PostgreSQL</span
-            >
-            <span class="chips__ciricle-btn chips__ciricle-SP"
-              >Spring Boot</span
-            >
-            <span class="chips__ciricle-btn chips__ciricle-lidear"
-              >Лидерские качества</span
-            >
-            <span class="chips__ciricle-btn chips__ciricle-sd-ENG"
-              >Английский язык</span
-            >
-            <span class="chips__ciricle-btn chips__ciricle-sd-Linux"
-              >Linux Bash</span
-            >
-            <span class="chips__ciricle-btn chips__ciricle-sd-DevOps"
-              >Практики DevOps
-            </span> -->
-            <div style="display: flex; justify-content: center">
+            <div class="content__chips">
+              <span class="chips__ciricle-btn chips__ciricle-JS"
+                >Java Core</span
+              >
+              <span class="chips__ciricle-btn chips__ciricle-SQL"
+                >PostgreSQL</span
+              >
+              <span class="chips__ciricle-btn chips__ciricle-SB"
+                >Spring Boot</span
+              >
+              <span class="chips__ciricle-btn chips__ciricle-lidear"
+                >Лидерские качества</span
+              >
+              <span class="chips__ciricle-btn chips__ciricle-sd-ENG"
+                >Английский язык</span
+              >
+              <span class="chips__ciricle-btn chips__ciricle-sd-Linux"
+                >Linux Bash</span
+              >
+              <span class="chips__ciricle-btn chips__ciricle-sd-DevOps"
+                >Практики DevOps
+              </span>
+              <span
+                class="chips__ciricle-btn chips__ciricle-sd-systems__administrator"
+                >Системный дизайн
+              </span>
               <div class="circle-container">
                 <svg
                   width="372"
@@ -1212,6 +1220,314 @@
           </li>
         </ul>
       </section>
+      <section class="white__background-section padding-section">
+        <h2 class="title__section">Функционал</h2>
+        <ul class="items__cards-functions">
+          <li class="item__card-function item__card-function-right">
+            <div class="content__svg-card__function">
+              <svg
+                width="38"
+                height="38"
+                viewBox="0 0 38 38"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_1498_422)">
+                  <mask
+                    id="mask0_1498_422"
+                    style="mask-type: luminance"
+                    maskUnits="userSpaceOnUse"
+                    x="0"
+                    y="0"
+                    width="38"
+                    height="38"
+                  >
+                    <path d="M38 0H0V38H38V0Z" fill="white" />
+                  </mask>
+                  <g mask="url(#mask0_1498_422)">
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M19 4.31572C19 2.00716 17.1286 0.135713 14.82 0.135713H4.18C1.87145 0.135713 0 2.00716 0 4.31572V14.9557C0 17.2643 1.87145 19.1357 4.18 19.1357H14.82C17.1286 19.1357 19 21.0072 19 23.3157V33.6843C19 35.9928 20.8715 37.8643 23.18 37.8643H33.82C36.1285 37.8643 38 35.9928 38 33.6843V23.0443C38 20.7357 36.1285 18.8643 33.82 18.8643H23.18C20.8715 18.8643 19 16.9928 19 14.6843V4.31572ZM33.6843 19C35.9928 19 37.8643 17.1286 37.8643 14.82V4.18C37.8643 1.87145 35.9928 5.65999e-07 33.6843 4.6509e-07L23.0443 0C20.7357 -1.0091e-07 18.8643 1.87145 18.8643 4.18V14.82C18.8643 17.1286 16.9928 19 14.6843 19H4.31572C2.00716 19 0.135709 20.8715 0.135709 23.18L0.135709 33.82C0.135709 36.1285 2.00716 38 4.31572 38H14.9557C17.2643 38 19.1357 36.1285 19.1357 33.82V23.18C19.1357 20.8715 21.0072 19 23.3157 19H33.6843Z"
+                      fill="url(#paint0_linear_1498_422)"
+                    />
+                  </g>
+                </g>
+                <defs>
+                  <linearGradient
+                    id="paint0_linear_1498_422"
+                    x1="-9.30789"
+                    y1="38"
+                    x2="49.4943"
+                    y2="38"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop stop-color="#FF58A2" />
+                    <stop offset="1" stop-color="#CA58FF" />
+                  </linearGradient>
+                  <clipPath id="clip0_1498_422">
+                    <rect width="38" height="38" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </div>
+            <article class="card__function">
+              <h3 class="title__headline">База Знаний</h3>
+              <p class="text__middle">
+                100 профессиональных, личностных и психологических тестов
+                для объективной и достоверной оценки кандидатов.
+              </p>
+              <span
+                class="pagination__card-function pagination__card-gray position__card-gradient-left"
+                >01</span
+              >
+            </article>
+          </li>
+          <li class="item__card-function item__card-function-right">
+            <article class="card__function">
+              <h3 class="title__headline">Техническая Оценка</h3>
+              <p class="text__middle">
+                Интегрированная Среда Разработки (IDE): компиляция и
+                автодополнение кода, отладка, работа в режиме реального времени,
+                поддержка различных языков программирования.
+              </p>
+              <span
+                class="pagination__card-function pagination__card-gradient position__card-gradient-left"
+                >02</span
+              >
+            </article>
+          </li>
+          <li class="item__card-function">
+            <article class="card__function">
+              <h3 class="title__headline">Видео-Интервью</h3>
+              <p class="text__middle">
+                Собеседования по видеосвязи в режиме реального времени, запись
+                видео-интервью, различные варианты подключения – от мессенджеров
+                до веб-платформы.
+              </p>
+              <span
+                class="pagination__card-function pagination__card-gradient position__card-gradient-right"
+                >03</span
+              >
+            </article>
+          </li>
+          <li class="item__card-function item__card-function-right">
+            <article class="card__function">
+              <h3 class="title__headline">Искусственный Интеллект</h3>
+              <p class="text__middle">
+                Распознавание эмоций кандидата, определение его психотипа,
+                обнаружение попыток обмана при выполнении заданий, высокая
+                точность результатов.
+              </p>
+              <span
+                class="pagination__card-function pagination__card-gray position__card-gradient-right"
+                >04</span
+              >
+            </article>
+            <div
+              class="content__svg-card__function content__svg-card__function-right"
+            >
+              <svg
+                width="38"
+                height="38"
+                viewBox="0 0 38 38"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_1498_205)">
+                  <mask
+                    id="mask0_1498_205"
+                    style="mask-type: luminance"
+                    maskUnits="userSpaceOnUse"
+                    x="0"
+                    y="0"
+                    width="38"
+                    height="38"
+                  >
+                    <path d="M38 0H0V38H38V0Z" fill="white" />
+                  </mask>
+                  <g mask="url(#mask0_1498_205)">
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M9.5 19C14.7467 19 19 14.7467 19 9.5C19 14.7467 23.2533 19 28.5 19C23.2533 19 19 23.2533 19 28.5C19 23.2533 14.7467 19 9.5 19ZM9.5 19C4.2533 19 0 23.2533 0 28.5C0 33.7467 4.2533 38 9.5 38C14.7467 38 19 33.7467 19 28.5C19 33.7467 23.2533 38 28.5 38C33.7467 38 38 33.7467 38 28.5C38 23.2533 33.7467 19 28.5 19C33.7467 19 38 14.7467 38 9.5C38 4.2533 33.7467 0 28.5 0C23.2533 0 19 4.2533 19 9.5C19 4.2533 14.7467 0 9.5 0C4.2533 0 0 4.2533 0 9.5C0 14.7467 4.2533 19 9.5 19Z"
+                      fill="url(#paint0_linear_1498_205)"
+                    />
+                  </g>
+                </g>
+                <defs>
+                  <linearGradient
+                    id="paint0_linear_1498_205"
+                    x1="-9.30789"
+                    y1="38"
+                    x2="49.4943"
+                    y2="38"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop stop-color="#FF58A2" />
+                    <stop offset="1" stop-color="#CA58FF" />
+                  </linearGradient>
+                  <clipPath id="clip0_1498_205">
+                    <rect width="38" height="38" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </div>
+          </li>
+          <li class="item__card-function item__card-function-right">
+            <div class="content__svg-card__function">
+              <svg
+                width="38"
+                height="38"
+                viewBox="0 0 38 38"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_1498_238)">
+                  <mask
+                    id="mask0_1498_238"
+                    style="mask-type: luminance"
+                    maskUnits="userSpaceOnUse"
+                    x="0"
+                    y="0"
+                    width="38"
+                    height="38"
+                  >
+                    <path d="M38 0H0V38H38V0Z" fill="white" />
+                  </mask>
+                  <g mask="url(#mask0_1498_238)">
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M9.5 0H0V19H9.5C4.2533 19 0 23.2533 0 28.5V38H19V28.5C19 33.7467 23.2533 38 28.5 38H38V19H28.5C33.7467 19 38 14.7467 38 9.5V0H19V9.5C19 4.2533 14.7467 0 9.5 0ZM19 19H9.5C14.7467 19 19 23.2533 19 28.5V19ZM19 19V9.5C19 14.7467 23.2533 19 28.5 19H19Z"
+                      fill="url(#paint0_linear_1498_238)"
+                    />
+                  </g>
+                </g>
+                <defs>
+                  <linearGradient
+                    id="paint0_linear_1498_238"
+                    x1="-9.30789"
+                    y1="38"
+                    x2="49.4943"
+                    y2="38"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop stop-color="#FF58A2" />
+                    <stop offset="1" stop-color="#CA58FF" />
+                  </linearGradient>
+                  <clipPath id="clip0_1498_238">
+                    <rect width="38" height="38" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </div>
+            <article class="card__function">
+              <h3 class="title__headline">Мок-интервью</h3>
+              <p class="text__middle">
+                Тестовое интервью для претендентов: подготовка к настоящему
+                собеседованию с нашими специалистами, разминка с типичными
+                вопросами по различным направлениям.
+              </p>
+              <span
+                class="pagination__card-function pagination__card-gray position__card-gradient-left"
+                >05</span
+              >
+            </article>
+          </li>
+          <li class="item__card-function item__card-function-right">
+            <article class="card__function">
+              <h3 class="title__headline">Настраиваемые Интервью</h3>
+              <p class="text__middle">
+                Возможность настраивать и создавать индивидуальные
+                собеседования, адаптированные к конкретным позициям и
+                требованиям.
+              </p>
+              <span
+                class="pagination__card-function pagination__card-gradient position__card-gradient-left"
+                >06</span
+              >
+            </article>
+          </li>
+        </ul>
+      </section>
+      <section class="hiring__section-btn">
+        <div class="hiring__section-btn-content">
+          <h2 class="title__section">Найм</h2>
+          <h2 class="title__section">без стереотипов</h2>
+          <button type="button" class="button btn__section btn__black">
+            Попробовать <img class="arrow__btn" src=<%=require
+            ("./images/arrow.svg") %> alt="arrow__btn" />
+          </button>
+        </div>
+      </section>
+      <section class="white__background-section padding-section">
+        <h2 class="title__section">Связаться с нами</h2>
+        <form method="get" action="../result" class="form__inputs-contact">
+          <label class="input-label" for="text">
+            <input
+              placeholder="Ваше имя"
+              class="input"
+              type="text"
+              size="52"
+              name="one-line"
+            />
+          </label>
+          <label class="input-label" for="tel">
+            <input
+              placeholder="+7"
+              class="input"
+              type="tel"
+              size="52"
+              name="one-line"
+            />
+          </label>
+          <label class="input-label" for="email">
+            <input
+              placeholder="Эл. почта"
+              class="input"
+              type="email"
+              size="52"
+              name="one-line"
+            />
+          </label>
+
+          <input
+            class="button__contact-us"
+            type="submit"
+            value="Отправить запрос"
+            disabled
+          />
+          <span class="forma__personal-text"
+            >Нажимая на кнопку, я соглашаюсь
+            <a href="#0" class="">на обработку персональных данных</a></span
+          >
+        </form>
+      </section>
     </main>
+    <footer class="footer">
+      <img src=<%=require("./images/Logo.svg")%> class="logo header__logo"
+      alt="Логотип проекта landing" />
+      <nav class="header__menu">
+        <ul class="header__menu-list">
+          <li class="header__menu-item">
+            <a class="link__header-list button" href="#">Главная</a>
+          </li>
+          <li class="header__menu-item">
+            <a class="link__header-list button" href="#">Для кого</a>
+          </li>
+          <li class="header__menu-item">
+            <a class="link__header-list button" href="#">Как это работает</a>
+          </li>
+          <li class="header__menu-item">
+            <a class="link__header-list button" href="#">Функционал</a>
+          </li>
+          <li class="header__menu-item">
+            <a class="link__header-list button" href="#">Связаться</a>
+          </li>
+        </ul>
+      </nav>
+      <span class="footer__year">2025</span>
+    </footer>
   </body>
 </html>

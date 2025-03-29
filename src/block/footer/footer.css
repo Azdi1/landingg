@@ -1,0 +1,47 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  padding: 40px 112px 0px;
+  height: 222px;
+  position: relative;
+  padding-inline: clamp(1rem, -0.0563rem + 7.807vw, 7rem);
+
+  &:after {
+    content: "BurnPro";
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 215px;
+    line-height: 130%;
+    letter-spacing: -0.02em;
+    color: var(--footer-letters);
+    position: absolute;
+    left: 0px;
+    top: 40px;
+  }
+
+  &:before {
+    content: "BurnPro";
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 215px;
+    line-height: 130%;
+    letter-spacing: -0.02em;
+    color: var(--footer-letters);
+    position: absolute;
+    right: -220px;
+    top: 40px;
+  }
+}
+
+.footer__year {
+  position: absolute;
+  bottom: 10px;
+  z-index: 1;
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 110%;
+  letter-spacing: -0.04em;
+  color: var(--text-light);
+}

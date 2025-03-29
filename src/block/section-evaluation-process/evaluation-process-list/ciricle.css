@@ -1,0 +1,54 @@
+.circle-container {
+  position: relative;
+  width: 372px;
+  height: 412px;
+}
+
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.circle-outer {
+  width: 371.95px;
+  height: 371.95px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 88, 162, 0.7) 0%,
+    rgba(141, 88, 255, 0.7) 100%
+  );
+}
+
+.circle-middle {
+  width: 278.96px;
+  height: 278.96px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 88, 162, 0.7) 0%,
+    rgba(141, 88, 255, 0.7) 100%
+  );
+  box-shadow: 0 3px 6px 0 rgba(88, 90, 96, 0.25);
+}
+
+.circle-inner {
+  width: 185.97px;
+  height: 185.97px;
+  background: linear-gradient(90deg, #ff58a2 10%, #ca58ff 100%);
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.25);
+}
+
+.ciricle-small {
+  width: 92.99px;
+  height: 92.99px;
+  fill: linear-gradient(90deg, #ff58a2 0%, rgba(141, 88, 255, 0.7) 100%);
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.25);
+}
+
+.circle-grafic {
+  width: 371.95px;
+  height: 371.95px;
+  background: conic-gradient (#7839ff 10%);
+}

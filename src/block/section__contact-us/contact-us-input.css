@@ -1,0 +1,31 @@
+.form__inputs-contact {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 63px;
+}
+
+.input {
+  border: 1.5px solid var(--text-light);
+  border-radius: 8px;
+  padding: 5px 16px;
+  width: 314px;
+  height: 52px;
+  background-color: inherit;
+}
+
+.button__contact-us {
+  border-radius: 8px;
+  padding: 10px 16px;
+  width: 250px;
+  height: 52px;
+  background: var(--background-dark);
+  color: var(--white);
+}
+
+.forma__personal-text {
+  margin-top: 13px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+}
