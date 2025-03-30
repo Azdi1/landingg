@@ -72,3 +72,10 @@
   left: 21px;
   top: 51%;
 }
+
+@media (1223px <= width <= 1441px) {
+  .items__cards-functions {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

@@ -10,7 +10,7 @@
 
 .item__product-user {
   border-radius: 64px;
-  width: 600px;
+  width: 599px;
   min-height: 747px;
   background: var(--white);
   padding: 32px;
@@ -30,4 +30,10 @@
 
 .title__user-card {
   margin-block: 50px 24px;
+}
+
+@media (width <= 1439px) {
+  .item__product-user {
+    width: 499px;
+  }
 }
