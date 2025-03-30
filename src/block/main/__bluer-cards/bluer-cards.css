@@ -59,3 +59,7 @@
   background: var(--glass);
   backdrop-filter: blur(56px);
 }
+
+.img__header-card {
+  border-radius: 53.5px;
+}

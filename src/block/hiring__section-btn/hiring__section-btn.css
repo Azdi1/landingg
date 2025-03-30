@@ -18,4 +18,10 @@
   background: var(--background-dark);
   color: var(--white);
   margin-top: 29px;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 80%;
+  }
 }

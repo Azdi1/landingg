@@ -19,22 +19,32 @@
         <label class="burger" for="burger-checkbox"></label>
         <ul class="header__menu-list">
           <li class="header__menu-item">
-            <a class="link__header-list button" href="#">Главная</a>
+            <a class="link__header-list" href="#">Главная</a>
           </li>
           <li class="header__menu-item">
-            <a class="link__header-list button" href="#">Для кого</a>
+            <a class="link__header-list" href="#list__user-product-section"
+              >Для кого</a
+            >
           </li>
           <li class="header__menu-item">
-            <a class="link__header-list button" href="#">Как это работает</a>
+            <a class="link__header-list" href="#work__plan-section"
+              >Как это работает</a
+            >
           </li>
           <li class="header__menu-item">
-            <a class="link__header-list button" href="#">Функционал</a>
+            <a class="link__header-list" href="#functional__project-section"
+              >Функционал</a
+            >
           </li>
           <li class="header__menu-item">
-            <a class="link__header-list button" href="#">Связаться</a>
+            <a class="link__header-list" href="#contact__value-user-section"
+              >Связаться</a
+            >
           </li>
           <li class="header__menu-item">
-            <button type="button" class="btn__linear">Попробовать</button>
+            <button type="button" class="btn__linear button">
+              Попробовать
+            </button>
           </li>
         </ul>
       </nav>
@@ -52,8 +62,8 @@
         </button>
         <div class="box__cards-bluer">
           <div class="blur__cards-position-1">
-            <img class="img__header-card-1" src=<%=require
-            ("./images/header-cards.svg") %> alt="" />
+            <img class="img__header-card" src=<%=require
+            ("./images/ludovic-migneault.jpg") %> alt="" />
             <span class="span__btn"
               ><svg
                 width="32"
@@ -78,8 +88,9 @@
             </span>
           </div>
           <div class="blur__cards-position-2">
-            <img class="img__header-card-2" src=<%=require
-            ("./images/header-cards-2.svg") %> alt="" />
+            <div class="test"></div>
+            <img class="img__header-card" src=<%=require
+            ("./images/igor-savelev.jpg") %> alt="" />
             <div class="blur__cards-position-3">
               <span class="text__cards-bluer text__card-position-1"
                 >Тест 85%</span
@@ -153,13 +164,16 @@
           </div>
         </div>
       </section>
-      <section class="white__background-section padding-section">
+      <section
+        class="white__background-section padding-section"
+        id="list__user-product-section"
+      >
         <h2 class="title__section">Для кого наш продукт</h2>
         <ul class="list__product-user">
           <li class="item__product-user">
             <article class="card__product-user">
               <img class="img__card-user-product" src=
-              <%=require("./images/user-product-card1.svg")%> alt="" />
+              <%=require("./images/user-product-card1.jpg")%> alt="" />
               <h2 class="title__headline title__user-card">
                 Руководитель разработки
               </h2>
@@ -220,7 +234,7 @@
           <li class="item__product-user">
             <article class="card__product-user">
               <img class="img__card-user-product" src=
-              <%=require("./images/user-product-card2.svg")%> alt="" />
+              <%=require("./images/user-product-card2.jpg")%> alt="" />
               <h2 class="title__headline title__user-card">
                 Нанимающий менеджер
               </h2>
@@ -260,7 +274,7 @@
           <li class="item__product-user">
             <article class="card__product-user">
               <img class="img__card-user-product" src=
-              <%=require("./images/user-product-card3.svg")%> alt="" />
+              <%=require("./images/user-product-card3.jpg")%> alt="" />
               <h2 class="title__headline title__user-card">Cоискатель</h2>
               <p class="text__large">
                 На платформе вы сможете подготовиться к собеседованиям. Пройдите
@@ -316,7 +330,7 @@
           <li class="item__product-user">
             <article class="card__product-user">
               <img class="img__card-user-product" src=
-              <%=require("./images/user-product-card4.svg")%> alt="" />
+              <%=require("./images/user-product-card4.jpg")%> alt="" />
               <h2 class="title__headline title__user-card">HR менеджер</h2>
               <p class="text__large">
                 Платформа поможет подобрать специалистов разного уровня,
@@ -372,7 +386,10 @@
           </li>
         </ul>
       </section>
-      <section class="evaluation-process padding-section">
+      <section
+        class="evaluation-process padding-section"
+        id="work__plan-section"
+      >
         <h2 class="title__section">Как это работает</h2>
         <ul class="list__steps">
           <li class="item__step">
@@ -1220,7 +1237,10 @@
           </li>
         </ul>
       </section>
-      <section class="white__background-section padding-section">
+      <section
+        class="white__background-section padding-section"
+        id="functional__project-section"
+      >
         <h2 class="title__section">Функционал</h2>
         <ul class="items__cards-functions">
           <li class="item__card-function item__card-function-right">
@@ -1455,13 +1475,16 @@
         <div class="hiring__section-btn-content">
           <h2 class="title__section">Найм</h2>
           <h2 class="title__section">без стереотипов</h2>
-          <button type="button" class="button btn__section btn__black">
+          <button type="button" class="btn__section btn__black">
             Попробовать <img class="arrow__btn" src=<%=require
             ("./images/arrow.svg") %> alt="arrow__btn" />
           </button>
         </div>
       </section>
-      <section class="white__background-section padding-section">
+      <section
+        class="white__background-section padding-section"
+        id="contact__value-user-section"
+      >
         <h2 class="title__section">Связаться с нами</h2>
         <form method="get" action="../result" class="form__inputs-contact">
           <label class="input-label" for="text">
@@ -1498,11 +1521,11 @@
             value="Отправить запрос"
             disabled
           />
-          <span class="forma__personal-text"
-            >Нажимая на кнопку, я соглашаюсь
-            <a href="#0" class="">на обработку персональных данных</a></span
-          >
         </form>
+        <div class="forma__personal-text">
+          Нажимая на кнопку, я соглашаюсь
+          <a href="#0" class="">на обработку персональных данных</a>
+        </div>
       </section>
     </main>
     <footer class="footer">
@@ -1511,19 +1534,27 @@
       <nav class="header__menu">
         <ul class="header__menu-list">
           <li class="header__menu-item">
-            <a class="link__header-list button" href="#">Главная</a>
+            <a class="link__header-list" href="#">Главная</a>
           </li>
           <li class="header__menu-item">
-            <a class="link__header-list button" href="#">Для кого</a>
+            <a class="link__header-list" href="#list__user-product-section"
+              >Для кого</a
+            >
           </li>
           <li class="header__menu-item">
-            <a class="link__header-list button" href="#">Как это работает</a>
+            <a class="link__header-list" href="#work__plan-section"
+              >Как это работает</a
+            >
           </li>
           <li class="header__menu-item">
-            <a class="link__header-list button" href="#">Функционал</a>
+            <a class="link__header-list" href="#functional__project-section"
+              >Функционал</a
+            >
           </li>
           <li class="header__menu-item">
-            <a class="link__header-list button" href="#">Связаться</a>
+            <a class="link__header-list" href="#contact__value-user-section"
+              >Связаться</a
+            >
           </li>
         </ul>
       </nav>

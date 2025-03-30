@@ -21,6 +21,15 @@
   height: 52px;
   background: var(--background-dark);
   color: var(--white);
+  cursor: pointer;
+
+  /* &:hover {
+    background: #424344;
+  } */
+
+  &:hover {
+    opacity: 80%;
+  }
 }
 
 .forma__personal-text {
@@ -28,4 +37,5 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 120%;
+  margin-top: 21px;
 }

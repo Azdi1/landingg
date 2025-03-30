@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 /* .page {
   max-width: 1920px;
   margin: 0 auto;
@@ -264,11 +268,7 @@
 } */
 
 @media (width <= 1439px) {
-  .img__header-card-1 {
-    width: 160px;
-  }
-
-  .img__header-card-2 {
+  .img__header-card {
     width: 166px;
   }
 

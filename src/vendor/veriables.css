@@ -15,4 +15,9 @@
   --font-family: "Manrope", sans-serif;
   --second-family: "Inter", sans-serif;
   --btn-linear-gradient: linear-gradient(90deg, #ff58a2 0%, #ca58ff 100%);
+  --background-linear-gradient: linear-gradient(
+    90deg,
+    rgba(255, 88, 162, 0.8) 0%,
+    rgba(202, 88, 255, 0.8) 100%
+  );
 }
