@@ -2,12 +2,6 @@ html {
   scroll-behavior: smooth;
 }
 
-/* @media (width <= 1023px) {
-  .item__product-user {
-    width: 499px;
-  }
-} */
-
 @media (width <= 1439px) {
   .img__header-card {
     width: 166px;
