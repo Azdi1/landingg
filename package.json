@@ -1,10 +1,17 @@
 {
   "name": "landingg",
   "version": "1.0.0",
-  "main": "src/index.js",
+  "description": "https://github.com/Azdi1/landingg.git",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Azdi1/landingg.git"
+  },
   "scripts": {
-    "build": "webpack --mode production --watch",
-    "dev": "webpack serve --watch"
+    "build": "webpack --mode production",
+    "dev": "webpack serve",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
