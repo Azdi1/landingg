@@ -14,34 +14,34 @@
     <header class="header">
       <img src=<%=require("./images/Logo.svg")%> class="logo header__logo"
       alt="Логотип проекта landing" />
-      <nav class="header__menu">
+      <nav class="main-nav">
         <input type="checkbox" id="burger-checkbox" class="burger-checkbox" />
         <label class="burger" for="burger-checkbox"></label>
-        <ul class="header__menu-list">
-          <li class="header__menu-item">
-            <a class="link__header-list" href="#">Главная</a>
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a class="link__menu-list" href="#">Главная</a>
           </li>
-          <li class="header__menu-item">
-            <a class="link__header-list" href="#list__user-product-section"
+          <li class="menu__item">
+            <a class="link__menu-list" href="#list__user-product-section"
               >Для кого</a
             >
           </li>
-          <li class="header__menu-item">
-            <a class="link__header-list" href="#work__plan-section"
+          <li class="menu__item">
+            <a class="link__menu-list" href="#work__plan-section"
               >Как это работает</a
             >
           </li>
-          <li class="header__menu-item">
-            <a class="link__header-list" href="#functional__project-section"
+          <li class="menu__item">
+            <a class="link__menu-list" href="#functional__project-section"
               >Функционал</a
             >
           </li>
-          <li class="header__menu-item">
-            <a class="link__header-list" href="#contact__value-user-section"
+          <li class="menu__item">
+            <a class="link__menu-list" href="#contact__value-user-section"
               >Связаться</a
             >
           </li>
-          <li class="header__menu-item">
+          <li class="menu__item">
             <button type="button" class="btn__linear button">
               Попробовать
             </button>
@@ -1487,22 +1487,26 @@
       >
         <h2 class="title__section">Связаться с нами</h2>
         <form method="get" action="../result" class="form__inputs-contact">
-          <label class="input-label" for="text">
+          <label class="input-label" for="name">
             <input
               placeholder="Ваше имя"
               class="input"
               type="text"
               size="52"
-              name="one-line"
+              name="name"
+              id="name"
+              required
             />
           </label>
-          <label class="input-label" for="tel">
+          <label class="input-label" for="phone">
             <input
               placeholder="+7"
               class="input"
               type="tel"
               size="52"
-              name="one-line"
+              name="phone"
+              id="phone"
+              required
             />
           </label>
           <label class="input-label" for="email">
@@ -1511,7 +1515,9 @@
               class="input"
               type="email"
               size="52"
-              name="one-line"
+              name="email"
+              id="email"
+              required
             />
           </label>
 
@@ -1531,28 +1537,28 @@
     <footer class="footer">
       <img src=<%=require("./images/Logo.svg")%> class="logo header__logo"
       alt="Логотип проекта landing" />
-      <nav class="header__menu">
-        <ul class="header__menu-list">
-          <li class="header__menu-item">
-            <a class="link__header-list" href="#">Главная</a>
+      <nav class="main-nav">
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a class="link__menu-list" href="#">Главная</a>
           </li>
-          <li class="header__menu-item">
-            <a class="link__header-list" href="#list__user-product-section"
+          <li class="menu__item">
+            <a class="link__menu-list" href="#list__user-product-section"
               >Для кого</a
             >
           </li>
-          <li class="header__menu-item">
-            <a class="link__header-list" href="#work__plan-section"
+          <li class="menu__item">
+            <a class="link__menu-list" href="#work__plan-section"
               >Как это работает</a
             >
           </li>
-          <li class="header__menu-item">
-            <a class="link__header-list" href="#functional__project-section"
+          <li class="menu__item">
+            <a class="link__menu-list" href="#functional__project-section"
               >Функционал</a
             >
           </li>
-          <li class="header__menu-item">
-            <a class="link__header-list" href="#contact__value-user-section"
+          <li class="menu__item">
+            <a class="link__menu-list" href="#contact__value-user-section"
               >Связаться</a
             >
           </li>

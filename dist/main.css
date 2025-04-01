@@ -7,7 +7,7 @@ html{scroll-behavior:smooth}@media (width <= 1439px){.img__header-card{width:166
 .header{display:flex;justify-content:space-between;padding:23px 0;padding-inline:clamp(1rem,-.0563rem + 7.807vw,7rem)}
 .header__logo{cursor:pointer;height:28px;width:107px}
 .burger,.burger-checkbox{display:none}@media (width <= 1050px){.burger{display:flex}}
-.header__menu-list{align-items:center;display:flex;gap:26px}.link__header-list{font-size:18px;text-decoration:none;&:hover{opacity:30%}}@media (width <= 1050px){.header__menu-list{display:none}}
+.menu__list{align-items:center;display:flex;gap:26px}.link__menu-list{font-size:18px;text-decoration:none;&:hover{opacity:30%}}@media (width <= 1050px){.menu__item{display:none}}
 .button{background-color:inherit;border:none;cursor:pointer;font-size:18px;&:hover{background:var(--btn-linear-gradient)}}.btn__linear{background:var(--background-linear-gradient);border:1px solid #000;border-radius:32px;cursor:pointer;font-size:16px;font-weight:700;line-height:100%;padding:14px 16px}
 .btn__section{align-items:center;background:var(--background-linear-gradient);border-radius:45px;display:flex;font-size:24px;font-weight:700;gap:14px;padding:11px 11px 11px 24px}.arrow__btn{background-color:var(--white);border-radius:21px;padding:10px}.span__btn{align-items:center;-webkit-backdrop-filter:blur(56px);backdrop-filter:blur(56px);background:var(--glass);border-radius:33px;display:flex;flex-direction:row;font-size:16px;font-weight:500;gap:7px;left:57.61%;line-height:130%;padding:7px 13px;position:absolute;top:87.3%;width:147px;z-index:10;&:after{content:"Java Script"}}
 .section__header{padding-block:108px 0;padding-inline:clamp(1rem,-.0563rem + 8.507vw,7rem);position:relative}
